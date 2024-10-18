@@ -1,8 +1,16 @@
 {
     "cSpell.words": [
         "getfeed",
+        "INTRADAY",
         "logzero",
+        "ordertype",
+        "producttype",
         "pyotp",
-        "totp"
+        "squareoff",
+        "stoploss",
+        "symboltoken",
+        "totp",
+        "tradingsymbol",
+        "transactiontype"
     ]
 }

@@ -1,0 +1,90 @@
+[E 241019 01:40:20 smartConnect:243] Error occurred while making a POST request to https://apiconnect.angelbroking.com/rest/secure/angelbroking/order/v1/placeOrder. Error: failed response, error Put Order Response : Request not registered. URL: https://apiconnect.angelbroking.com/rest/secure/angelbroking/order/v1/placeOrder, Headers: {'Content-type': 'application/json', 'X-ClientLocalIP': '127.0.0.1', 'X-ClientPublicIP': '106.193.147.98', 'X-MACAddress': '1c:4d:70:be:5e:50', 'Accept': 'application/json', 'X-PrivateKey': 'bE7ipU6q', 'X-UserType': 'USER', 'X-SourceID': 'WEB'}, Request: {'variety': 'NORMAL', 'tradingsymbol': 'SBIN-EQ', 'symboltoken': '3045', 'transactiontype': 'BUY', 'exchange': 'NSE', 'ordertype': 'MARKET', 'producttype': 'INTRADAY', 'duration': 'DAY', 'price': '0', 'squareoff': '0', 'stoploss': '0', 'quantity': '1'}, Response: {'status': False, 'message': 'failed response, error Put Order Response : Request not registered', 'errorcode': 'AB1007', 'data': {'script': 'SBIN-EQ', 'orderid': None, 'uniqueorderid': '3198f217-9271-41ac-bac8-fb0e075347e9'}}
+[E 241019 01:40:20 smartConnect:352] API request failed: {'status': False, 'message': 'failed response, error Put Order Response : Request not registered', 'errorcode': 'AB1007', 'data': {'script': 'SBIN-EQ', 'orderid': None, 'uniqueorderid': '3198f217-9271-41ac-bac8-fb0e075347e9'}}
+[E 241019 01:43:11 smartConnect:243] Error occurred while making a POST request to https://apiconnect.angelbroking.com/rest/secure/angelbroking/order/v1/placeOrder. Error: failed response, error Put Order Response : Request not registered. URL: https://apiconnect.angelbroking.com/rest/secure/angelbroking/order/v1/placeOrder, Headers: {'Content-type': 'application/json', 'X-ClientLocalIP': '127.0.0.1', 'X-ClientPublicIP': '106.193.147.98', 'X-MACAddress': '1c:4d:70:be:5e:50', 'Accept': 'application/json', 'X-PrivateKey': 'eskMiA2H', 'X-UserType': 'USER', 'X-SourceID': 'WEB'}, Request: {'variety': 'NORMAL', 'tradingsymbol': 'SBIN-EQ', 'symboltoken': '3045', 'transactiontype': 'BUY', 'exchange': 'NSE', 'ordertype': 'MARKET', 'producttype': 'INTRADAY', 'duration': 'DAY', 'price': '0', 'squareoff': '0', 'stoploss': '0', 'quantity': '1'}, Response: {'status': False, 'message': 'failed response, error Put Order Response : Request not registered', 'errorcode': 'AB1007', 'data': {'script': 'SBIN-EQ', 'orderid': None, 'uniqueorderid': '5edd34a8-1bc2-47ae-8bdf-d38bb6e00461'}}
+[E 241019 01:43:11 smartConnect:352] API request failed: {'status': False, 'message': 'failed response, error Put Order Response : Request not registered', 'errorcode': 'AB1007', 'data': {'script': 'SBIN-EQ', 'orderid': None, 'uniqueorderid': '5edd34a8-1bc2-47ae-8bdf-d38bb6e00461'}}
+[E 241019 01:55:32 smartConnect:243] Error occurred while making a POST request to https://apiconnect.angelbroking.com/rest/secure/angelbroking/order/v1/placeOrder. Error: failed response, error Put Order Response : Request not registered. URL: https://apiconnect.angelbroking.com/rest/secure/angelbroking/order/v1/placeOrder, Headers: {'Content-type': 'application/json', 'X-ClientLocalIP': '127.0.0.1', 'X-ClientPublicIP': '106.193.147.98', 'X-MACAddress': '1c:4d:70:be:5e:50', 'Accept': 'application/json', 'X-PrivateKey': 'bE7ipU6q', 'X-UserType': 'USER', 'X-SourceID': 'WEB'}, Request: {'variety': 'NORMAL', 'tradingsymbol': 'SBIN-EQ', 'symboltoken': '3045', 'transactiontype': 'BUY', 'exchange': 'NSE', 'ordertype': 'MARKET', 'producttype': 'INTRADAY', 'duration': 'DAY', 'price': '0', 'squareoff': '0', 'stoploss': '0', 'quantity': '1'}, Response: {'status': False, 'message': 'failed response, error Put Order Response : Request not registered', 'errorcode': 'AB1007', 'data': {'script': 'SBIN-EQ', 'orderid': None, 'uniqueorderid': 'c622da7b-6ce7-4622-bb98-81f20d3c4b1e'}}
+[E 241019 01:55:32 smartConnect:352] API request failed: {'status': False, 'message': 'failed response, error Put Order Response : Request not registered', 'errorcode': 'AB1007', 'data': {'script': 'SBIN-EQ', 'orderid': None, 'uniqueorderid': 'c622da7b-6ce7-4622-bb98-81f20d3c4b1e'}}
+[I 241019 02:49:44 smartWebSocketOrderUpdate:38] Connection opened
+[I 241019 02:49:44 smartWebSocketOrderUpdate:32] Received message: {"user-id": "Y58983127","status-code": "200","order-status": "AB00","error-message": "","orderData": {"variety": "","ordertype": "","ordertag": "","producttype": "","price": 0.0,"triggerprice": 0.0,"quantity": "0","disclosedquantity": "0","duration": "","squareoff": 0.0,"stoploss": 0.0,"trailingstoploss": 0.0,"tradingsymbol": "","transactiontype": "","exchange": "","symboltoken": "","instrumenttype": "","strikeprice": 0.0,"optiontype": "","expirydate": "","lotsize": "0","cancelsize": "0","averageprice": 0.0,"filledshares": "","unfilledshares": "","orderid": "","text": "","status": "","orderstatus": "","updatetime": "","exchtime": "","exchorderupdatetime": "","fillid": "","filltime": "","parentorderid": ""}}
+[I 241019 02:50:04 smartWebSocketOrderUpdate:32] Received message: b'\x00'
+[I 241019 02:50:14 smartWebSocketOrderUpdate:32] Received message: b'\x00'
+[I 241019 02:50:24 smartWebSocketOrderUpdate:32] Received message: b'\x00'
+[I 241019 02:50:34 smartWebSocketOrderUpdate:32] Received message: b'\x00'
+[I 241019 02:50:44 smartWebSocketOrderUpdate:32] Received message: b'\x00'
+[I 241019 02:50:54 smartWebSocketOrderUpdate:32] Received message: b'\x00'
+[I 241019 02:51:04 smartWebSocketOrderUpdate:32] Received message: b'\x00'
+[I 241019 02:51:14 smartWebSocketOrderUpdate:32] Received message: b'\x00'
+[I 241019 02:51:24 smartWebSocketOrderUpdate:32] Received message: b'\x00'
+[I 241019 02:51:34 smartWebSocketOrderUpdate:32] Received message: b'\x00'
+[I 241019 02:51:44 smartWebSocketOrderUpdate:32] Received message: b'\x00'
+[I 241019 02:51:54 smartWebSocketOrderUpdate:32] Received message: b'\x00'
+[I 241019 02:52:04 smartWebSocketOrderUpdate:32] Received message: b'\x00'
+[I 241019 02:52:14 smartWebSocketOrderUpdate:32] Received message: b'\x00'
+[I 241019 02:52:24 smartWebSocketOrderUpdate:32] Received message: b'\x00'
+[I 241019 02:52:34 smartWebSocketOrderUpdate:32] Received message: b'\x00'
+[I 241019 02:52:44 smartWebSocketOrderUpdate:32] Received message: b'\x00'
+[I 241019 02:52:54 smartWebSocketOrderUpdate:32] Received message: b'\x00'
+[I 241019 02:53:04 smartWebSocketOrderUpdate:32] Received message: b'\x00'
+[I 241019 02:53:14 smartWebSocketOrderUpdate:32] Received message: b'\x00'
+[E 241019 02:53:24 smartWebSocketOrderUpdate:41] Error: 
+[I 241019 02:53:24 smartWebSocketOrderUpdate:44] Connection closed
+[I 241019 02:53:24 smartWebSocketOrderUpdate:85] Retrying connection (Attempt 1)...
+[I 241019 02:53:35 smartWebSocketOrderUpdate:38] Connection opened
+[I 241019 02:53:35 smartWebSocketOrderUpdate:32] Received message: {"user-id": "Y58983127","status-code": "200","order-status": "AB00","error-message": "","orderData": {"variety": "","ordertype": "","ordertag": "","producttype": "","price": 0.0,"triggerprice": 0.0,"quantity": "0","disclosedquantity": "0","duration": "","squareoff": 0.0,"stoploss": 0.0,"trailingstoploss": 0.0,"tradingsymbol": "","transactiontype": "","exchange": "","symboltoken": "","instrumenttype": "","strikeprice": 0.0,"optiontype": "","expirydate": "","lotsize": "0","cancelsize": "0","averageprice": 0.0,"filledshares": "","unfilledshares": "","orderid": "","text": "","status": "","orderstatus": "","updatetime": "","exchtime": "","exchorderupdatetime": "","fillid": "","filltime": "","parentorderid": ""}}
+[I 241019 02:53:55 smartWebSocketOrderUpdate:32] Received message: b'\x00'
+[I 241019 02:54:05 smartWebSocketOrderUpdate:32] Received message: b'\x00'
+[I 241019 02:54:15 smartWebSocketOrderUpdate:32] Received message: b'\x00'
+[I 241019 02:54:25 smartWebSocketOrderUpdate:32] Received message: b'\x00'
+[I 241019 02:54:35 smartWebSocketOrderUpdate:32] Received message: b'\x00'
+[E 241019 02:54:45 smartWebSocketOrderUpdate:41] Error: 
+[I 241019 02:54:45 smartWebSocketOrderUpdate:44] Connection closed
+[I 241019 02:54:45 smartWebSocketOrderUpdate:85] Retrying connection (Attempt 2)...
+[I 241019 02:54:55 smartWebSocketOrderUpdate:38] Connection opened
+[I 241019 02:54:55 smartWebSocketOrderUpdate:32] Received message: {"user-id": "Y58983127","status-code": "200","order-status": "AB00","error-message": "","orderData": {"variety": "","ordertype": "","ordertag": "","producttype": "","price": 0.0,"triggerprice": 0.0,"quantity": "0","disclosedquantity": "0","duration": "","squareoff": 0.0,"stoploss": 0.0,"trailingstoploss": 0.0,"tradingsymbol": "","transactiontype": "","exchange": "","symboltoken": "","instrumenttype": "","strikeprice": 0.0,"optiontype": "","expirydate": "","lotsize": "0","cancelsize": "0","averageprice": 0.0,"filledshares": "","unfilledshares": "","orderid": "","text": "","status": "","orderstatus": "","updatetime": "","exchtime": "","exchorderupdatetime": "","fillid": "","filltime": "","parentorderid": ""}}
+[I 241019 02:55:15 smartWebSocketOrderUpdate:32] Received message: b'\x00'
+[I 241019 02:55:25 smartWebSocketOrderUpdate:32] Received message: b'\x00'
+[I 241019 02:55:35 smartWebSocketOrderUpdate:32] Received message: b'\x00'
+[I 241019 02:55:45 smartWebSocketOrderUpdate:32] Received message: b'\x00'
+[I 241019 02:55:55 smartWebSocketOrderUpdate:32] Received message: b'\x00'
+[I 241019 02:56:05 smartWebSocketOrderUpdate:32] Received message: b'\x00'
+[I 241019 02:56:15 smartWebSocketOrderUpdate:32] Received message: b'\x00'
+[I 241019 02:56:25 smartWebSocketOrderUpdate:32] Received message: b'\x00'
+[I 241019 02:56:35 smartWebSocketOrderUpdate:32] Received message: b'\x00'
+[I 241019 02:56:45 smartWebSocketOrderUpdate:32] Received message: b'\x00'
+[I 241019 02:56:55 smartWebSocketOrderUpdate:32] Received message: b'\x00'
+[I 241019 02:57:05 smartWebSocketOrderUpdate:32] Received message: b'\x00'
+[I 241019 02:57:15 smartWebSocketOrderUpdate:32] Received message: b'\x00'
+[I 241019 02:57:25 smartWebSocketOrderUpdate:32] Received message: b'\x00'
+[I 241019 02:57:35 smartWebSocketOrderUpdate:32] Received message: b'\x00'
+[I 241019 02:57:45 smartWebSocketOrderUpdate:32] Received message: b'\x00'
+[I 241019 02:57:55 smartWebSocketOrderUpdate:32] Received message: b'\x00'
+[I 241019 02:58:05 smartWebSocketOrderUpdate:32] Received message: b'\x00'
+[I 241019 02:58:15 smartWebSocketOrderUpdate:32] Received message: b'\x00'
+[I 241019 02:58:25 smartWebSocketOrderUpdate:32] Received message: b'\x00'
+[I 241019 02:58:35 smartWebSocketOrderUpdate:32] Received message: b'\x00'
+[I 241019 02:58:45 smartWebSocketOrderUpdate:32] Received message: b'\x00'
+[I 241019 02:58:55 smartWebSocketOrderUpdate:32] Received message: b'\x00'
+[I 241019 02:59:05 smartWebSocketOrderUpdate:32] Received message: b'\x00'
+[I 241019 02:59:15 smartWebSocketOrderUpdate:32] Received message: b'\x00'
+[I 241019 02:59:25 smartWebSocketOrderUpdate:32] Received message: b'\x00'
+[I 241019 02:59:35 smartWebSocketOrderUpdate:32] Received message: b'\x00'
+[I 241019 02:59:45 smartWebSocketOrderUpdate:32] Received message: b'\x00'
+[I 241019 02:59:55 smartWebSocketOrderUpdate:32] Received message: b'\x00'
+[I 241019 03:00:05 smartWebSocketOrderUpdate:32] Received message: b'\x00'
+[I 241019 03:00:15 smartWebSocketOrderUpdate:32] Received message: b'\x00'
+[I 241019 03:00:25 smartWebSocketOrderUpdate:32] Received message: b'\x00'
+[I 241019 03:00:35 smartWebSocketOrderUpdate:32] Received message: b'\x00'
+[I 241019 03:00:45 smartWebSocketOrderUpdate:32] Received message: b'\x00'
+[I 241019 03:00:55 smartWebSocketOrderUpdate:32] Received message: b'\x00'
+[I 241019 03:01:05 smartWebSocketOrderUpdate:32] Received message: b'\x00'
+[I 241019 03:01:15 smartWebSocketOrderUpdate:32] Received message: b'\x00'
+[I 241019 03:01:25 smartWebSocketOrderUpdate:32] Received message: b'\x00'
+[I 241019 03:01:35 smartWebSocketOrderUpdate:32] Received message: b'\x00'
+[I 241019 03:01:45 smartWebSocketOrderUpdate:32] Received message: b'\x00'
+[I 241019 03:01:55 smartWebSocketOrderUpdate:32] Received message: b'\x00'
+[I 241019 03:02:05 smartWebSocketOrderUpdate:32] Received message: b'\x00'
+[I 241019 03:02:15 smartWebSocketOrderUpdate:32] Received message: b'\x00'
+[I 241019 03:02:25 smartWebSocketOrderUpdate:32] Received message: b'\x00'
+[I 241019 03:02:35 smartWebSocketOrderUpdate:32] Received message: b'\x00'
+[E 241019 03:07:27 smartConnect:243] Error occurred while making a POST request to https://apiconnect.angelbroking.com/rest/secure/angelbroking/order/v1/cancelOrder. Error: OrderId not found. URL: https://apiconnect.angelbroking.com/rest/secure/angelbroking/order/v1/cancelOrder, Headers: {'Content-type': 'application/json', 'X-ClientLocalIP': '127.0.0.1', 'X-ClientPublicIP': '106.193.147.98', 'X-MACAddress': '1c:4d:70:be:5e:50', 'Accept': 'application/json', 'X-PrivateKey': 'bE7ipU6q', 'X-UserType': 'USER', 'X-SourceID': 'WEB'}, Request: {'variety': 'NORMAL', 'orderid': '241019100000156'}, Response: {'message': 'OrderId not found', 'errorcode': 'AB3001', 'status': False, 'data': None}
+[E 241019 03:09:13 smartConnect:243] Error occurred while making a POST request to https://apiconnect.angelbroking.com/rest/secure/angelbroking/order/v1/cancelOrder. Error: OrderId not found. URL: https://apiconnect.angelbroking.com/rest/secure/angelbroking/order/v1/cancelOrder, Headers: {'Content-type': 'application/json', 'X-ClientLocalIP': '127.0.0.1', 'X-ClientPublicIP': '106.193.147.98', 'X-MACAddress': '1c:4d:70:be:5e:50', 'Accept': 'application/json', 'X-PrivateKey': 'bE7ipU6q', 'X-UserType': 'USER', 'X-SourceID': 'WEB'}, Request: {'variety': 'NORMAL', 'orderid': '241019100000156'}, Response: {'message': 'OrderId not found', 'errorcode': 'AB3001', 'status': False, 'data': None}
